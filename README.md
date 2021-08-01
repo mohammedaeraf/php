@@ -2,4 +2,4 @@
 Code for PHP demos
 
 # Sections
-Each sections has a separate branch such as "Basics" and "OOP".
+Each section (basic, advanced, oop) is in a separate folder.
