@@ -1,4 +1,4 @@
-# php
+# PHP
 Code for PHP demos
 
 # Sections
