@@ -2,10 +2,11 @@
 
 class User
 {
-
+    // instance properties
     public $username;
     private $email;
 
+    // instance functions
     public function __construct($username, $email)
     {
         //$this->username = 'ken';

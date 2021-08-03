@@ -35,6 +35,12 @@ _Abstraction means to "show" only essential attributes and "hide" unnecessary in
 
 _Polymorphism is a greek word that literally means many forms. It allows objects of different classes to respond differently based on the same message._
 
+## Static Properties and Methods
+
+**Static Properties** belong to class and not to objects.
+
+**Static Methods** belong to class and not to objects and they are used to perform a utility function.
+
 ## Abstract Classes and Methods
 
 Abstract classes and methods are when the parent class has a named method, but need its child class(es) to fill out the tasks.

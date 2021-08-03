@@ -2,10 +2,11 @@
 
 class Weather
 {
-
+    // static properties
     public static $tempConditions = ['cold', 'mild', 'warm'];
 
-    public static function celsiusToFarenheit($c)
+    // static functions
+    static function celsiusToFarenheit($c)
     {
         return $c * 9 / 5 + 32;
     }
@@ -23,8 +24,8 @@ class Weather
 }
 
 //print_r(Weather::$tempConditions);
-//echo Weather::celsiusToFarenheit(20);
-echo Weather::determineTempCondition(80);
+echo Weather::celsiusToFarenheit(20) . '<br>';
+echo Weather::determineTempCondition(80) . '<br>';
 
 ?>
 
